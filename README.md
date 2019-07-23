@@ -1,20 +1,22 @@
-# Memory Game Project
+# Memory Game
 
-## Table of Contents
+## Description
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+A responsive memory game where the user is presented 16 cards (8 pairs of 2) and has to match them 2 at a time.
 
-## Instructions
+## Installation
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+1. Clone repo here : https://github.com/Mohsen-94/fend-project-memory-game
+2. Locate and open index.html in a modern web browser.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## How to Play & Rules
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+- A user must select 2 cards at a time.
+- Mismatched cards will be turned over, and the user must select a new pair of cards.
+- Once all 8 pairs are matched, the user is prompted to play again.
+- The player is given a score of 1 star to 3 stars depending on how many moves are made.
+- Time is kept from when the user makes his/her first selection
 
-## Contributing
+## Inspiration
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001
