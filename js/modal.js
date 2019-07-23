@@ -1,3 +1,4 @@
+// Modal script inspired from w3schools
 // Get the modal
 let modal = document.querySelector('.modal');
 
