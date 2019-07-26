@@ -150,3 +150,13 @@ h1 {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media only screen and (max-width:550px){
+  .deck .card {
+    height: calc(100vh/9);
+    width: calc(100%/4); 
+  }
+  .deck {
+  width: 100%;
+}
+}
