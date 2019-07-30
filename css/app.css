@@ -151,12 +151,13 @@ h1 {
   cursor: pointer;
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width: 550px) {
   .deck .card {
-    height: calc(100vh/9);
-    width: calc(100%/4); 
+    height: 67px;
+    width: 67px;
+    margin: 5px;
   }
   .deck {
-  width: 100%;
-}
+    width: 100%;
+  }
 }
